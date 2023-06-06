@@ -1,3 +1,3 @@
 public interface Animal {
-    public void makeNoise();
+    void makeNoise();
 }
