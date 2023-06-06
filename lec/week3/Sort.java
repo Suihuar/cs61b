@@ -23,12 +23,8 @@ public class Sort{
         x[b] = temp;
     }
 
-
-    public static void sort(String[] x){
-        sort(x,0);
-    }
-//    recursion helper: sorts the rest of the array that starts at some point
-    private static void sort(String[] x, int start){
+//    recursion: sorts the rest of the array that starts at some point
+    public static void sort(String[] x, int start){
         if(start == x.length) {
             return;
         }
