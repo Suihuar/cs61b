@@ -87,7 +87,7 @@ public class SLList{
      * how to make it faster?
      */
 
-     /* aadding size in the process of creation! */
+     /* adding size in the process of creation! */
 
      public int size(){
         return size;
